@@ -1,0 +1,15 @@
+bike1;Red;available
+bike2;Blue;available
+bike3;Green;rented
+bike4;Black;available
+bike5;Gray;rented
+bike6;Orange;rented
+bike7;Black;available
+bike8;Yellow;available
+bike9;Silver;available
+bike10;Blue;rented
+bike11;Brown;available
+bike12;Red;rented
+bike13;Gray;rented
+bike14;Green;available
+bike15;Black;available
