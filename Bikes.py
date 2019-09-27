@@ -6,6 +6,7 @@ class Bike:
         self.status = status
         
     def readBikes():
+        bikes=[]
         print("Opna bikes.txt")
         with open('bikes.txt', 'r', newline='', encoding='utf-8')as file:
             reader = csv.reader(file, delimiter=';')
@@ -13,6 +14,7 @@ class Bike:
                 bike = Bike(row[0],row[1],row[2])
                 bikes.append(bike)
             print("Finished")
+            return bikes
     
     def writeBikes():
         print("Skrifa í bikes.txt")

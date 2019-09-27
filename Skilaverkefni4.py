@@ -4,9 +4,9 @@ import csv
 from Bikes import Bike
 from Clients import Clients
 
-bikes=[]
+bikes=Bike.readBikes()
 
-Bike.readBikes()
+clientlist=Clients.readclient()
 
 flag = True
 while flag:
@@ -27,7 +27,8 @@ while flag:
             if bike.status == "available":
                 print(bike)
     elif val=="2":
-        pass
+        for client in clientlist:
+            print(client)
     elif val=="3":
         pass
     elif val=="4":
@@ -37,6 +38,7 @@ while flag:
     elif val=="6":
         print("Sjáumst seinna!")
         flag=False
+        writeBikes()
     else:
         print("Þú verður að velja 1 til 6")
 
