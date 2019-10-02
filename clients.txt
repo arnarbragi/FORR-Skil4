@@ -1,3 +1,6 @@
-1110983269;Jón Ásgeir;8987732;jonasgeir@gmail.com
-2002022020;Guðjón Atli;8621289;gudjona2002@gmail.com
+1110983269;Jón;8987732;jonasgeir@gmail.com
+2002022020;Guðjón;8621289;gudjona2002@gmail.com
 0210562389;Björg;8621029;bjorging@gmail.com
+3494832238;Halldór;6543434;halldor@gmail.com
+1207021120;Sigrún;9867423;sigrun@gmail.com
+6092384436;Sigurður;7653434;siggi@gmail.com

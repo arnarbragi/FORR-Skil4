@@ -16,7 +16,7 @@ class Bike:
             print("Finished")
             return bikes
     
-    def writeBikes():
+    def writeBikes(bikes):
         print("Skrifa í bikes.txt")
         file = None
         try:
